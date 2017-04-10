@@ -1,0 +1,171 @@
+ body {
+     margin: 0;
+     padding: 0;
+     color: #333;
+ }
+ 
+ img {
+     width: 100%;
+     height: 4.40367rem;
+ }
+ 
+ a {
+     color: #333;
+     text-decoration: none;
+ }
+ 
+ .content {
+     height: 10.880734rem;
+     padding: 0.366972rem;
+ }
+ 
+ .content1 {
+     padding: 0.366972rem;
+     height: 4.495413rem;
+ }
+ 
+ .content1 .zt {
+     padding: 0.293578rem 0;
+ }
+ 
+ .content1 .zt a {
+     border-left: 5px solid #e58c7c;
+     color: #888;
+ }
+ 
+ .content1 .zt span {
+     float: right;
+     color: #888;
+ }
+ 
+ .content1 .line a {
+     padding: 0.137615rem 0.275229rem;
+     color: #e58c7c;
+     border-radius: 5px;
+     border: 2px solid #e58c7c;
+     margin-right: 0.091743rem;
+     text-decoration: none;
+     font-size: 40px;
+ }
+ 
+ .content1 .line p {
+     margin-bottom: 0.550459rem;
+ }
+ 
+ .content .zt {
+     padding: 0.293578rem 0;
+ }
+ 
+ .content .zt a {
+     color: #888;
+     border-left: 5px solid #e58c7c;
+ }
+ 
+ .content .zt i {
+     color: #888;
+     font-size: 44px;
+ }
+ 
+ .content1 .zt i {
+     font-size: 40px;
+     color: #888;
+ }
+ 
+ .content .zt span {
+     float: right;
+     color: #888;
+ }
+ 
+ .content ul {
+     height: 10.880734rem;
+     border-top: #b4b4b4;
+     display: none;
+ }
+ 
+ .content ul li {
+     height: 3.743119rem;
+     padding-bottom: 0.550459rem;
+     margin-bottom: 0.550459rem;
+     border-bottom: 1px solid #eee;
+ }
+ 
+ .contents .author {
+     margin-bottom: 0.366972rem;
+ }
+ 
+ .contents .author a {
+     font-size: 34px;
+     text-decoration: none;
+     color: #333;
+ }
+ 
+ .contents .author img {
+     border-radius: 50%;
+     width: 0.642202rem;
+     height: 0.642202rem;
+     vertical-align: middle;
+ }
+ 
+ .content .contents .title1 {
+     height: 1.174312rem;
+ }
+ 
+ .content .contents .title1 a {
+     font-size: 48px;
+     font-weight: bold;
+     text-decoration: none;
+     color: #333;
+ }
+ 
+ .contents .dongtai {
+     margin-top: 0.458716rem;
+ }
+ 
+ .contents .dongtai .ju {
+     border: 1px solid #e58c7c;
+     border-radius: 5px;
+     color: #e58c7c;
+     padding: 0.045872rem 0.183486rem;
+     margin-right: 5px;
+ }
+ 
+ .contents .dongtai span {
+     padding: 0px 4px;
+ }
+ 
+ .contents .dongtai a {
+     text-decoration: none;
+     color: #333;
+ }
+ 
+ .r {
+     float: right;
+ }
+ 
+ .r img {
+     width: 2.201835rem;
+     height: 2.201835rem;
+ }
+ 
+ footer {
+     width: 100%;
+     height: 1.33945rem;
+     background-color: #fcfcfc;
+     position: fixed;
+     bottom: 0;
+     text-align: center;
+ }
+ 
+ footer nav {
+     width: 100%;
+     display: flex;
+ }
+ 
+ footer nav div {
+     width: 20%;
+     margin-top: 0;
+ }
+ 
+ footer nav .iconfont {
+     font-size: 0.53211rem;
+ }

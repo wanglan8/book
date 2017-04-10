@@ -1,0 +1,258 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ a {
+     color: #333;
+     text-decoration: none;
+ }
+ 
+ i {
+     font-size: 48px;
+     color: #888;
+ }
+ 
+ #tab .content ul li.bt {
+     border-bottom-width: 0px;
+ }
+ 
+ .clear {
+     clear: both;
+ }
+ 
+ #header {
+     height: 1.266055rem;
+     line-height: 1.266055rem;
+ }
+ 
+ #header .lefttop {
+     float: left;
+     margin-left: 0.366972rem;
+ }
+ 
+ #header .lefttop {
+     float: left;
+     font-size: 48px;
+ }
+ 
+ #header i {
+     font-size: 48px;
+     color: #888;
+ }
+ 
+ #header .righttop {
+     float: right;
+     margin-right: 0.550459rem;
+ }
+ 
+ #show {
+     height: 3.486239rem;
+     background: #fcfcfc;
+     border-top: 1px solid #ddd;
+     border-bottom: 1px solid #ddd;
+     font-size: 38px;
+ }
+ 
+ #show .con {
+     height: 2.752294rem;
+     padding: 0.366972rem;
+ }
+ 
+ #show .con .ione {
+     width: 1.100917rem;
+     height: 1.100917rem;
+     float: left;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+     margin-right: 0.275229rem;
+ }
+ 
+ #show .con .ione img {
+     width: 1.082569rem;
+     height: 1.082569rem;
+ }
+ 
+ #show .con .itwo .font00 {
+     font-size: 52px;
+ }
+ 
+ #show .con .itwo {
+     width: 75%;
+     float: left;
+ }
+ 
+ .font01 {
+     color: #3e94c7;
+     margin-top: 0.366972rem;
+ }
+ 
+ .itwo a {
+     color: #b1b1b1;
+ }
+ 
+ .itwo ul li {
+     margin-bottom: 0.275229rem;
+ }
+ 
+ .itwo ul li a {
+     text-decoration: none;
+ }
+ 
+ #show .con .ithr {
+     width: 5%;
+     float: right;
+ }
+ 
+ #show .con .ithr i {
+     font-size: 32px;
+ }
+ 
+ .itwo ul li.tougao span {
+     border: 1px solid #49be39;
+     border-radius: 5px;
+     padding: 0.137615rem 0.275229rem;
+     color: #49be39;
+ }
+ 
+ .itwo ul li.tougao i {
+     color: #49be39;
+     font-size: 44px;
+ }
+ /*选项卡*/
+ 
+ #tab {
+     height: 12.201835rem;
+ }
+ 
+ #tab .title {
+     height: 1.321101rem;
+     font-size: 44px;
+     border-bottom: 2px solid #ddd;
+ }
+ 
+ #tab .title h4 {
+     width: 25%;
+     height: 1.321101rem;
+     float: left;
+     color: #919191;
+     line-height: 1.321101rem;
+     text-align: center;
+     font-size: 44px;
+ }
+ 
+ .active {
+     border-bottom: 3px solid #e58c7c;
+ }
+ 
+ #tab .content {
+     height: 10.880734rem;
+     padding: 0.366972rem;
+ }
+ 
+ #tab .content ul {
+     height: 10.880734rem;
+     border-top: #b4b4b4;
+     display: none;
+ }
+ 
+ #tab .content ul li {
+     height: 3.743119rem;
+     padding-bottom: 0.550459rem;
+     margin-bottom: 0.550459rem;
+     border-bottom: 1px solid #eee;
+ }
+ 
+ .contents .author {
+     margin-bottom: 0.366972rem;
+ }
+ 
+ .contents .author a {
+     font-size: 34px;
+     text-decoration: none;
+     color: #333;
+ }
+ 
+ .contents .author img {
+     border-radius: 50%;
+     width: 0.642202rem;
+     height: 0.642202rem;
+     vertical-align: middle;
+ }
+ 
+ .content .contents .title1 {
+     height: 1.174312rem;
+ }
+ 
+ .content .contents .title1 a {
+     font-size: 48px;
+     font-weight: bold;
+     text-decoration: none;
+     color: #333;
+ }
+ 
+ .contents .dongtai {
+     margin-top: 0.458716rem;
+ }
+ 
+ .contents .dongtai span {
+     padding: 0px 4px;
+ }
+ 
+ .contents .dongtai a {
+     text-decoration: none;
+     color: #333;
+ }
+ /*.contents::after{content: "";display: block;}*/
+ 
+ .r {
+     float: right;
+ }
+ 
+ .r img {
+     width: 2.201835rem;
+     height: 2.201835rem;
+ }
+ /*选项卡内的成员*/
+ 
+ .g {
+     padding-left: 0.330275rem;
+     padding-right: 0.733945rem;
+     font-size: 36px;
+ }
+ 
+ .container {
+     padding: 0px 0.275229rem;
+ }
+ 
+ .detal img {
+     border-radius: 50%;
+ }
+ 
+ .item p {
+     font-size: 40px;
+ }
+ /*底部导航 start*/
+ 
+ footer {
+     width: 100%;
+     height: 1.33945rem;
+     background-color: #fcfcfc;
+     position: fixed;
+     bottom: 0;
+     text-align: center;
+ }
+ 
+ footer nav {
+     width: 100%;
+     display: flex;
+ }
+ 
+ footer nav div {
+     width: 20%;
+     margin-top: 0;
+ }
+ 
+ footer nav .iconfont {
+     font-size: 0.53211rem;
+ }

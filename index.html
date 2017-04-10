@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="flexible" content="initial-dpr=3,maximum-dpr=3" />
+    <title>首页</title>
+    <!-- <link rel="stylesheet" type="text/css" href="static/css/index.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="static/css/list.css"> -->
+    <link rel="stylesheet" type="text/css" href="static/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/fonts/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="static/swiper/dist/css/swiper.css">
+    <script src="static/build/flexible_css.debug.js"></script>
+    <script src="static/build/flexible.debug.js"></script>
+    <script src="static/jquery/dist/jquery.min.js"></script>
+    <script src="static/swiper/dist/js/swiper.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <!-- 内容存放位置 -->
+        <router-view></router-view>
+        <br>
+        <!-- 路由链接 -->
+        <footer>
+            <nav>
+                <div class="footer-item">
+                    <router-link to="/">
+                        <i class="iconfont icon-home"></i>
+                        <br> 首页
+                    </router-link>
+                </div>
+                <div class="footer-item">
+                    <router-link to="/list">
+                        <i class="iconfont icon-faxian"></i>
+                        <br> 列表页
+                    </router-link>
+                </div>
+                <div class="footer-item">
+                    <router-link to="/">
+                        <i class="iconfont icon-llalbumshopselectorcreate"></i>
+                        <br> 写文章
+                    </router-link>
+                </div>
+                <div class="footer-item">
+                    <router-link to="/show">
+                        <i class="iconfont icon-xiaoxi"></i>
+                        <br> 消息
+                    </router-link>
+                </div>
+                <div class="footer-item">
+                    <router-link to="/login">
+                        <i class="iconfont icon-man"></i>
+                        <br> 我的
+                    </router-link>
+                </div>
+                <!--  <div class="footer-item">
+                    <router-link to="/zhuce">
+                        <i class="iconfont icon-xiaoxi"></i>
+                        <br> 详情页
+                    </router-link>
+                </div> -->
+            </nav>
+        </footer>
+        <!-- <router-link to="/">首页</router-link>
+<router-link to="/list">列表页</router-link>
+<router-link to="/login">登录页</router-link>
+<router-link to="/show">详情页</router-link>
+ -->
+    </div>
+    <!-- 引入bundle.js -->
+    <script src="bundle.js"></script>
+</body>
+
+</html>

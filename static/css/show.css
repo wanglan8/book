@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+i {
+    font-size: 48px;
+    color: #888;
+}
+
+.clear {
+    clear: both;
+}
+
+#header {
+    height: 1.266055rem;
+    line-height: 1.266055rem;
+    border-bottom: 1px solid #eee;
+}
+
+#header .lefttop {
+    float: left;
+    margin-left: 0.366972rem;
+}
+
+#header .lefttop {
+    float: left;
+    font-size: 48px;
+}
+
+#header i {
+    font-size: 48px;
+    color: #888;
+}
+
+#header .righttop {
+    float: right;
+    margin-right: 0.550459rem;
+}
+
+.au {
+    height: 1.853211rem;
+    padding: 0.422018rem;
+    border-bottom: 2px solid #eee;
+}
+
+.au .author {
+    width: 70%;
+    float: left;
+}
+
+.au .author img {
+    width: 0.917431rem;
+    border-radius: 50%;
+    border: 2px solid #eee;
+}
+
+.au .gz {
+    width: 30%;
+    float: left;
+}
+
+.author a {
+    font-size: 44px;
+}
+
+.author span {
+    font-size: 32px;
+    border-radius: 30px;
+    padding: 0 4px;
+    background: #e78170;
+    color: #fff;
+}
+
+.gz span {
+    font-size: 44px;
+    background: #49be39;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.091743rem 0.220183rem;
+}
+
+.title {
+    padding: 46px;
+}
+
+.title a {
+    text-decoration: none;
+    color: #2f2f2f;
+    font-size: 86px;
+}
+
+.title p {
+    color: #666;
+}
+
+.tu {
+    padding: 0.422018rem;
+}
+
+.tu img {
+    width: 9.082569rem;
+    height: 6.825688rem
+}
+
+.t {
+    width: 5.908257rem;
+    height: 1.192661rem;
+    border-bottom: 2px solid #d9d9d9;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.t p {
+    font-size: 0.422018rem;
+}
+
+.content {
+    padding: 0.40367rem;
+}
+
+.content p {
+    margin-bottom: 0.825688rem;
+    font-size: 52px;
+}
+
+
+/*底部导航 start*/
+
+footer {
+    width: 100%;
+    height: 1.155963rem;
+    background-color: #fcfcfc;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 0.275229rem;
+}
+
+footer nav {
+    width: 100%;
+    display: flex;
+}
+
+footer nav div {
+    width: 30%;
+}
+
+footer nav .iconfont {
+    font-size: 0.458716rem;
+}
